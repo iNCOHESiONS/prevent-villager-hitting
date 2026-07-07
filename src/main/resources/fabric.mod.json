@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "prevent_villager_hitting",
+  "version": "${version}",
+  "name": "Prevent Villager Hitting",
+  "description": "",
+  "authors": ["iNCOHESiONS"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/prevent_villager_hitting/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [],
+    "main": []
+  },
+  "mixins": [
+    "prevent_villager_hitting.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
