@@ -1,4 +1,4 @@
-package io.incohesions.prevent_villager_hitting.mixin;
+package io.github.incohesions.prevent_villager_hitting.mixin;
 
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;

@@ -1,10 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "io.incohesions.prevent_villager_hitting.mixin",
+  "package": "io.github.incohesions.prevent_villager_hitting.mixin",
   "compatibilityLevel": "JAVA_25",
   "mixins": [],
   "client": [
+    "EntityMixin",
     "VillagerMixin"
   ],
   "injectors": {
